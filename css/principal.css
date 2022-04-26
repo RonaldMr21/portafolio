@@ -1,0 +1,91 @@
+.barraopcion{
+    height: 100%;
+     width: 100%; 
+}
+
+.row{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.caja1 ,  .caja2{
+    /* height: 100%; */
+    padding: 0 !important;
+}
+.caja1{
+    background-color: rgb(255, 255, 255);
+}
+.ulunico{
+    list-style-type: none ;
+    margin: 0;
+    padding: 0;
+}
+.ulunico li a {
+    
+    display: block;    
+    text-align: center;
+    padding: 6px ;
+    text-decoration: none;
+    color: rgb(92, 250, 0);
+    font-size: 15px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px;
+    
+}
+.ulunico li {
+    height: 50px;
+    float: left; 
+    
+
+}
+
+.ulunico li a:hover{
+   
+    background-color: green;
+    color: white;
+
+}
+.imagen{
+    background-image: url( ../multimedia/foto.png);
+    height: 700px;
+    background-attachment: fixed;
+    
+    
+     /* background-repeat: no-repeat;  */
+    /* background-size: cover; */ 
+    
+
+}
+.logo{
+    /* background-image: url(../multimedia/descarga.png) ; */
+    /* height: 50px;
+    width: 50px;
+    background-size: 100% 100%; */
+    font-size: 30px;
+    color: white;
+}
+.lg{
+    color: black;
+    margin-top: 180px;
+    text-align: center;
+    font-size: 80px;
+}
+#html{
+    color: black;
+    font-size: 30px;
+   
+}
+#servidor{
+    color: black;
+    font-size: 30px;
+}
+.baja{
+    margin-top: 90px;
+    margin-left: 80px;
+}
+.caja3{
+    background-color: black;
+    height: 50px;
+}
+
