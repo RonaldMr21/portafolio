@@ -1,0 +1,59 @@
+header
+{
+    background-color: red;
+   
+    text-align: center;
+    size: 100px;
+    color: white;
+}
+body
+{
+    
+  color:white ;
+  background-repeat: no-repeat;
+    font:100px;
+    text-align: center;
+    background-color: blue;
+    min-height: 1003vh;
+    flex-wrap: wrap;
+    font-family: cursive;
+}
+
+#header{
+    margin: auto;
+    width: 300px;
+    font-family: cursive;
+    display: block;
+}
+#menu{
+background-color: red;
+}
+#menu ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}  
+#menu ul li {
+    display: inline-block;
+    color: white;
+}  
+#menu ul li a{
+    color: blue;
+    text-decoration: none; 
+    display: block;
+    padding: 10px;
+}
+#menu ul li a:hover{
+background-color: white;
+}
+footer
+{
+    align-self: center;
+   
+    width:100px ;
+    line-height: 100;
+    background-position-x: 100;
+    background-position-y: none;
+    position: absolute;left:80% ;
+}

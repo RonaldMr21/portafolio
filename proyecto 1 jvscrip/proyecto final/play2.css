@@ -1,0 +1,25 @@
+body{
+    background-color: steelblue;
+
+}
+header{
+    background-color: black;
+    text-align: center;
+}
+#DBZ{
+    background-color: white;
+    width: 150px;
+    
+}
+
+#DBZ1{
+    color: green;
+}
+#COD{
+    background-color: white;
+    width: 150px;
+  
+}
+ #COD2{
+     color: green;
+ }

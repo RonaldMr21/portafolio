@@ -1,0 +1,51 @@
+header{
+    background-color: black;
+    image-orientation: from-image;
+    text-align: center;
+
+}
+body{ background-color: black;
+
+}
+.formulario{
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba (0, 0, 0.3);
+    position: relative;
+}
+.formulariotitulo{
+    text-align: center;
+    margin-top: 0px;
+    color: white;
+}
+.formularioinput,.formulariolabel,.formulariosubmit{
+    display: block;
+    width: 100%;
+    
+   font-size: 1.3em;
+} 
+.formularioinput{
+    padding: 20px;
+    border: 1px  solid rgba(0,0,0,0,0.3);
+    margin-bottom: 40px;
+}
+.formulariolabel{
+    padding-right: 15px;
+color: white;
+    max-width: -85px;
+}
+button{
+    background-color: black;
+    color: blanchedalmond;
+text-align: center;
+object-position:right;
+border-radius: 50px;
+border-color: red;
+padding:10px;
+}
+button:hover{
+   background-color:  blue;
+}

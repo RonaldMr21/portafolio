@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Creative-games</title>
+    <link rel="stylesheet" href="crgames.css">
+    <link rel="stylesheet" href="./diseñocss/carusel.css">
+    <script src="./javascrip/jquery-3.1.0.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <img class="crgamesimg" src="imagen polera crgames.png" alt="">
+    </header>
+ <audio  src="./tetrisrap.mp3 " type="" autoplay></audio>
+    <div id="menu">
+        <ul class="nav">
+
+            <!-- <img src="/imagen polera crgames.png" width="90" alt=""> -->
+            <li><a href="/loguin.html"><img src="/imagen polera crgames.png" width="150" alt=""><BR>INICIAR SESION</BR></a></li>
+            <!-- <img src="pc/pc.png" width="50" alt=""> -->
+            <li><a href="pc/pc.html"><img src="pc/pc.png" width="50" alt=""><BR>PC</BR></a></li>
+            <!-- <img src="/pstationimg.png" width="30" alt=""> -->
+            <li><a href="/Play Station.html"><img src="/pstationimg.png" width="30" alt=""><BR>PLAYSTATION</BR> </a></li>
+            <!-- <img src="/xbox.png" width="50" alt=""> -->
+            <li><a href="/XBox.html"><img src="/xbox.png" width="60" alt=""><BR>XBOX LIVE</BR></a></li>
+            <!-- <img src="/nintendo.png" width="50" alt=""> -->
+            <li><a href="/Nintendo.html"><img src="/nintendo.png" width="60" alt=""><BR> NINTENDO </BR></a></li>
+            </li>
+            <!-- <img src="/contactos.png" width="30" alt=""> -->
+            <li><a href="/formulario.html"><img src="/contactos.png" width="30" alt=""><BR> CONTACTOS</BR></a></li>
+        </ul>
+    </div><br>
+    <!-- <div class="divsmmhimg"> -->
+        <!-- <img class="smashimg" src="/smmh.png" width="500" alt="" height="300px"> -->
+    <!-- </div> -->
+    <!-- <div class="divcrgames"> -->
+        <!-- <img src="/fondo tienda.jfif" alt=""  class="fondotienda">
+        <p>En Creative-games podrás jugar <br> variedad de juegos de<br> PC,PlayStation,XBox,Nintendo, etc.
+        </p> -->
+
+
+
+
+    <!-- </div> -->
+    <div id="c-carrusel">
+        <div id="carusel">
+            <section>
+                <img src="./imagenescascada/DOTA-2-1-1000x576.jpg" alt="">
+            </section>
+            <section>
+                <img src="./imagenescascada/godwar.jpg" alt="imagen2">
+            </section>
+            <section>
+                <img src="./imagenescascada/mario kart.jpg" alt="imagen4">
+            </section>
+            <section>
+                <img src="./imagenescascada/vice city.jpeg" alt="imagen4">
+            </section>
+            <section>
+                <img src="./imagenescascada/crash.jpg" alt="imagen4">
+            </section>
+
+
+        </div>
+        <div id="btn-antes">&#60;</div>
+        <div id="btn-despues">&#62;</div>
+    </div>
+
+
+    <script>
+        let carusel=$('#carusel');
+        let antes=$('#btn-antes');
+        let despues=$('#btn-despues');
+
+        // Mover el ultimo elemento
+        $('#carusel section:last').insertBefore('#carusel section:first')
+
+        // Mostrar la primera con
+        carusel.css('margin-left','-'+100+'%');
+
+        // cuando se haga click en el boton anterior
+        antes.on('click',function(){
+            carusel.animate({
+                marginLeft:0
+            },1000, function(){
+                $('#carusel section:last').insertBefore('#carusel section:first')
+                carusel.css('margin-left','-'+100+'%');
+            })
+        })
+
+        // cuando se haga click en el boton siguiente
+            despues.on('click',function(){
+                carusel.animate({
+                    marginLeft:'-'+200+'%'
+                },1000, function(){
+                    $('#carusel section:first').insertAfter('#carusel section:last')
+                    carusel.css('margin-left','-'+100+'%');
+                })
+            })
+
+
+
+    </script>
+
+</body>
+
+</html>

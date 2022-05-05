@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+
+header {
+    background-color: red;
+    image-orientation: from-image;
+    text-align: center;
+    image-orientation: from-image;
+}
+
+win10.png {
+    image-resolution: left;
+}
+
+.imgwindows {
+    float: left, 30px;
+    margin: 50px;
+}
+
+.imgmicrosoft {
+    float: right, 50px;
+}
+
+.imghome {
+    float: right, 50px;
+    margin: 50px;
+}

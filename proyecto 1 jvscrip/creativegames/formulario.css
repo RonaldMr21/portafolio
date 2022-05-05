@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: red;
+
+}
+.formulario{
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba (0, 0, 0.3);
+    position: relative;
+}
+.formulariotitulo{
+    text-align: center;
+    margin-top: 0px;
+    color: blue;
+}
+.formularioinput,.formulariolabel,.formulariosubmit{
+    display: block;
+    width: 100%;
+    
+   font-size: 1.3em;
+} 
+.formularioinput{
+    padding: 20px;
+    border: 1px  solid rgba(0,0,0,0,0.3);
+    margin-bottom: 40px;
+}
+.formulariolabel{
+    padding-left: 15px;
+
+    max-width: -85px;
+}

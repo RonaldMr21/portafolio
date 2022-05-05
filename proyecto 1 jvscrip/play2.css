@@ -1,0 +1,46 @@
+body {
+    background-color: red;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+}
+
+#DBZ {
+    background-color: white;
+    width: 150px;
+}
+
+#DBZ1 {
+    color: green;
+}
+
+#COD {
+    background-color: white;
+    width: 150px;
+}
+
+#COD2 {
+    color: green;
+}
+
+.dbzimg {
+    background-color: white;
+    width: 190px;
+    height: 350px;
+    text-align: center;
+    color: green;
+}
+
+.codimg {
+    display: 50px;
+}
+
+.divcodps2 {
+    background-color: white;
+    width: 190px;
+    height: 350px;
+    text-align: center;
+    color: green;
+}

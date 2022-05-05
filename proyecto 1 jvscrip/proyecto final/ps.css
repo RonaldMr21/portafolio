@@ -1,0 +1,30 @@
+body{
+    background-color: steelblue;
+    text-align: center;
+}
+header{
+    background-color: black;
+    text-align: center;
+}
+#menu{
+    background-color:black;
+    }
+    #menu ul{
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    
+    }  
+    #menu ul li {
+        display: inline-block;
+        color: white;
+    }  
+    #menu ul li a{
+        color: blue;
+        text-decoration: none; 
+        display: block;
+        padding: 10px;
+    }
+    #menu ul li a:hover{
+    background-color: white;
+    }

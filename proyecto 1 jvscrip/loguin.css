@@ -1,0 +1,126 @@
+header {
+    background-color: black;
+    image-orientation: from-image;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+.formulario {
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba (0, 0, 0.3);
+    position: relative;
+}
+
+.formulariotitulo {
+    text-align: center;
+    margin-top: 0px;
+    color: white;
+}
+
+.formularioinput,
+.formulariolabel,
+.formulariosubmit {
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
+}
+
+.formularioinput {
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0, 0.3);
+    margin-bottom: 40px;
+}
+
+.formulariolabel {
+    padding-right: 15px;
+    color: white;
+    max-width: -85px;
+}
+
+button {
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    object-position: right;
+    border-radius: 50px;
+    border-color: red;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: black;
+}
+
+.btn {
+    color: blanchedalmond;
+    text-decoration: none;
+    border-radius: 50px;
+    text-align: center;
+    background-color: red;
+    font-size: 14px;
+    padding: 15px;
+    margin: 100px;
+    display: 500px;
+    position: relative;
+    left: 500px;
+    bottom: 400px;
+    margin-bottom: 300px;
+    width: 10%;
+}
+
+.btn:hover {
+    color: black;
+}
+
+.ploguin {
+    color: white;
+}
+
+.usuario {
+    color: red;
+    position: relative;
+    left: 125px;
+    bottom: 400px;
+}
+
+.contraseña {
+    color: red;
+    position: relative;
+    left: 100px;
+    bottom: 400px;
+}
+
+.password {
+    position: relative;
+    left: 100px;
+    bottom: 400px;
+}
+
+.usr {
+    position: relative;
+    left: 125px;
+    bottom: 400px;
+}
+
+.Arcadeimg {
+    position: relative;
+    left: 400px;
+    right: 150px;
+    width: 600px;
+}
+
+.iniciosecion {
+    position: relative;
+    top: 100px;
+}
+
+.arcade2 {
+    width: 500px;
+}

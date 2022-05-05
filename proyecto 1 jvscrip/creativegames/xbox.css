@@ -1,0 +1,31 @@
+body{
+    background-color: chartreuse;
+    text-align: center;
+
+}
+header{
+    background-color: white;
+    text-align: center;
+}
+#menu{
+    background-color:gray;
+    }
+    #menu ul{
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    
+    }  
+    #menu ul li {
+        display: inline-block;
+        color: green;
+    }  
+    #menu ul li a{
+        color: chartreuse;
+        text-decoration: none; 
+        display: block;
+        padding: 10px;
+    }
+    #menu ul li a:hover{
+    background-color:white;
+    }
