@@ -1,0 +1,106 @@
+@font-face{
+    font-family:letra;
+    src: url(Deadpool_Movie/letra.otf)
+}
+h1{
+   
+    font-family:letra;
+    color: brown;
+   -webkit-text-stroke: 2px;
+   -webkit-text-stroke-color: black;
+   }
+
+
+
+body {
+    background-color: red;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+header {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.juego1 {
+    position: relative;
+    right: 520px;
+}
+
+.juegoinfo {
+    position: relative;
+    bottom: 250px;
+    left: 300px;
+    text-align: center;
+}
+
+.p1 {
+    position: relative;
+    left: 450px;
+    text-align: justify;
+    color: white;
+}
+
+.h1titulo {
+    position: relative;
+    left: 200px;
+}
+
+.infojuegodeadpool {
+    position: relative;
+    bottom: 200px;
+    left: 500px;
+}
+
+.infogame2 {
+    position: relative;
+    bottom: 330px;
+    left: 500px;
+}
+
+.hr1 {
+    position: relative;
+    top: 100px;
+    left: 220px;
+}
+
+.infosobrejuego1 {
+    position: relative;
+    bottom: 200px;
+    left: 500px;
+}
+
+.hr2 {
+    position: relative;
+    bottom: 200px;
+}
+
+.deadpoolfortnite {
+    position: relative;
+    bottom: 200px;
+    right: 450px;
+}
+
+.deadpoolfortinfo {
+    position: relative;
+    bottom: 400px;
+    right: 100px;
+    color: white;
+}
+
+
+
+.triler1 {
+    position: relative;
+    bottom: 1010px;
+    left: 1000px;
+}
+
+.introdeadpoolfort {
+    position: relative;
+    bottom: 180px;
+    left: 350px;
+}

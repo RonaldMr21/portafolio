@@ -1,0 +1,15 @@
+#videofondo{
+    position:fixed;
+    right: 0;
+    width: 0;
+    min-width:30%;
+    min-height:130%;
+    width:auto;
+    height:auto;
+    z-index:-500;
+    background:url(../videos/Deadpool\ 2\ _\ Opening\ Credits\(480P\).mp4)no-repeat;
+    background-size:cover;
+}
+video{
+    display:block;
+}

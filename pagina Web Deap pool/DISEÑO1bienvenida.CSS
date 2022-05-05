@@ -1,0 +1,31 @@
+@font-face{
+    font-family:letra;
+    src: url(Deadpool_Movie/letra.otf)
+    
+}
+body{
+    
+    background-image:url(imagenes/dead.gif) ;
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    
+    
+
+}
+h1{
+   text-align: center;
+   font-family:letra;
+   font-size: 80px;
+   color: brown;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: black;
+
+}
+h6{
+    font-family:letra;
+    text-align: right;
+    color: black;
+    font-size: 30px;
+    
+    
+}
