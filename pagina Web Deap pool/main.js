@@ -3,7 +3,7 @@ function login(){
     user=document.getElementById("USUARIO").value;
     pass=document.getElementById("CONTRASEÑA").value;
 
-    if(user=="ronald" && pass =="daniel"){
+    if(user=="faviola" && pass =="soliz"){
         window.location= "paginadeadpool.html";
 
     }
@@ -20,7 +20,7 @@ function entrarconenter(){
         if(event.keyCode == 13)
        {
            console.log("entrando")
-              if(user.value=="ronald" && pass.value =="daniel"){
+              if(user.value=="faviola" && pass.value =="soliz"){
             //console.log("presionaste enter")
             window.location= "paginadeadpool.html";
             }
@@ -42,7 +42,7 @@ function entrarconenter2(){
         if(event.keyCode == 13)
        {
            console.log("entrando")
-              if(user.value=="ronald" && pass.value =="daniel"){
+              if(user.value=="faviola" && pass.value =="soliz"){
             //console.log("presionaste enter")
             window.location= "paginadeadpool.html";
             }
